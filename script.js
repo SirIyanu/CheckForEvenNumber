@@ -19,23 +19,34 @@
 // )
 
 
- function printToConsole(n1, n2){
-      const parameters={
-          number1: n1,
-          number2: n2,
-      }
+//  function printToConsole(n1, n2){
+//       const parameters={
+//           number1: n1,
+//           number2: n2,
+//       }
   
-      return parameters
+//       return parameters
        
   
-  }
-  console.log(printToConsole(
-      1, 2
-  ))
+//   }
+//   console.log(printToConsole(
+//       1, 2
+//   ))
   
-  console.log(printToConsole(
-      6, 7
-  ))
+//   console.log(printToConsole(
+//       6, 7
+//   ))
 
+function SumValues(firstSum, secondSum){
+  const calcFunc={
+    inBetween: firstSum,
+    inBetween2: secondSum, 
+  }
+
+  return calcFunc
+}
+console.log(SumValues(
+  1+2+3, 5+4+9
+))
 
 
